@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family:Poppins;
+    }
+
+div.main {
+    width:100%;
+    overflow:auto;
+    height: 333px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+div.main div.sidebox {
+    width:37%;  
+    float:left;
+    background-color: #EE9591;
+    border-top-right-radius: 100px;
+    height: 333px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    
+  }
+
+div.main div.sidebox h1{
+    font-family:Orbitron ;
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff0fc;
+    padding:10px;
+}
+
+div.main div.sidebox span{
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff0fc;
+    padding: 25px 10px 10px 10px;
+}
+
+div.main div.footercontent{
+    width:21%;  
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+
+  }
+
+div ul {
+    list-style: none;
+}
+
+div ul li heading{
+    text-decoration: none;
+    color:#EE9591;
+    font-weight: 600;
+}
+div ul li a{
+    text-decoration: none;
+    color: #888888;
+    font-size: 14px;
+    padding: 0.7rem 0;
+    display: block;
+    font-weight: 400;
+}

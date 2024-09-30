@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family:Poppins;
+    }
+
+body{
+    background: url("../assets/bg.png") no-repeat center center/cover;
+   
+}
+
+.midcontent{
+    display: block;
+    height: 750px;
+    align-content:center;
+    margin-left: 30px;
+    line-break: auto;
+}
+
+.midcontent h1{
+    color: var(--Text-Title, #555);
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; 
+    letter-spacing: 0.3px;
+    margin: auto;
+    padding: 10px;
+    text-shadow: 2px 2px #B48D8C;
+}
+
+.midcontent p{   
+    color: #746B6B;
+    width: 600px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px;
+}
+
+.shopnow{
+    background-color: #EE9591;
+    width: 150px;
+    height: 52px;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 7px;
+    border-color: #EE9591;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.shopnow:hover {
+    background-color: #FFC5C5;
+}
+
+.shopnow:active {
+    background-color: #FFC5C5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.contentbox{
+
+    height: 600px;
+    background: linear-gradient(180deg, #FFF 71.75%, rgba(255, 255, 255, 0.00) 97%);
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentbox div.paracontent{
+   width: 500px;
+   height: 270px;
+}
+
+.contentbox div.paracontent div{
+     color: #555555;
+     font-size: 40px;
+     font-weight: 600;
+}
+
+.contentbox div.paracontent p{
+    color: #888888;
+    width: 500px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contentbox div.paracontent hr{
+    background: #EE9591;
+    size: 30px;
+    width: 15%;
+    height: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.easyaccess{
+    height: 1119px;
+}
+
+.easyaccess div{
+    color: #555555;
+    font-size: 70px;
+    font-weight: 600;
+    margin: 20px;
+    text-align: center;
+}
+
+.rectangle{
+    
+    height: 88.593px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(244, 239, 239, 0.41) 0%, #ffffff 100%);
+}
+
+
+.bodycontent{
+    height: 2127px;
+}
