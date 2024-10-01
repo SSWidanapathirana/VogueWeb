@@ -4,6 +4,7 @@ import './home.css';
 import Footer from '../components/Footer';
 import ColumnCard from '../components/ColumnCard';
 import ParaContent from '../components/ParaContent';
+import Card from '../components/card';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <pre></pre>
         <button className='shopnow'>SHOP NOW</button>
       </div>
+      
       <div className="contentbox">'
         <div className='paracontent'>
           <div>By us, with your styling.<font color ='#EE9591'>.</font></div>
@@ -34,7 +36,7 @@ export default function Home() {
         
       </div>
       <div className="bodycontent">
-
+      <Card/>
       </div>
       <Footer/>
     </div>
